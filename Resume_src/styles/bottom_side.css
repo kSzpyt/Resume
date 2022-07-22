@@ -1,0 +1,14 @@
+.container .consent{
+    background-color: #003147;
+    height: 27mm;
+    color: #fff;
+    padding: 16px;
+}
+
+.container .consent .consent_content{
+    position: relative;
+    font-size: 75%;
+    display: flex;
+    font-weight: 100;
+    text-align: justify;
+}

@@ -1,0 +1,84 @@
+.left_side{
+    background-color: #003147;
+    position: relative;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(128, 128, 128, 0.5);
+
+    padding-top: 50px;
+    padding-left: 35px;
+    color: #fff;
+
+    font-size: 15px;
+}
+
+.name_surname{
+    font-size: 10mm;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+.job_position{
+    font-size: 5.5mm;
+    font-weight: 300;
+}
+
+.profile_text {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-right: 35px;
+    padding-bottom: 20px;
+}
+
+.left_side #header_line{
+    display: inline-block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 6mm;
+    font-weight: 700;
+}
+
+.left_side ul li{
+    list-style: none;
+}
+.contact_info ul li{
+    line-height: 30px;
+}
+
+.contact_info ul li .icon{
+    display: inline-block;
+    width: 18px;
+    font-size: 18px;
+    color: #00a6ff;
+}
+
+
+.education p{
+    margin-bottom: 10px;
+}
+
+.education .years{
+    color: #00a6ff
+}
+
+
+
+.languages{
+    margin-right: 35px;
+}
+
+.languages #percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.languages #percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}

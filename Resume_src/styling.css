@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    /* min-width: 210mm;
+    min-height: 296mm; 
+    max-width: 350mm; */
+    width: 210mm;
+    height: 296mm;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.3);
+}
+
+/* TOP */
+.container .content{
+    display: grid;
+    grid-template-columns: 80mm auto;
+    height: 270mm;
+    width: 100%;
+}
+
+/* LEFT SIDE */
+
+.left_side{
+    background-color: #003147;
+    position: relative;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(128, 128, 128, 0.5);
+
+
+    padding-top: 50px;
+    padding-left: 35px;
+    color: #fff;
+}
+
+.name_surname{
+    font-size: 250%;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.job_position{
+    font-size: 120%;
+    font-weight: 200;
+}
+
+.profile_text {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-right: 35px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE */
+
+.container .content .right_side{
+    position: relative;
+}
+
+
+
+
+
+
+/* BOTTOM */
+.container .consent{
+    background-color: #003147;
+    height: 27mm;
+    color: #fff;
+    padding: 16px;
+}
+
+.container .consent .consent_content{
+    position: relative;
+    font-size: 75%;
+    display: flex;
+    font-weight: 100;
+    text-align: justify;
+}

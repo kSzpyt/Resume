@@ -1,0 +1,30 @@
+.right_side{
+    position: relative;
+    margin: 30px;
+    font-size: 3.5mm;
+}
+
+.right_side #header_line{
+    display: inline-block;
+    border-bottom: 1px solid #00304771;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 6mm;
+    font-weight: 700;
+}
+
+.profile_text{
+    text-align: justify;
+    padding: 0;
+}
+
+
+.experience #position_title{
+    font-size: 5mm;
+    font-weight: 500;
+}
+
+.experience span{
+    font-size: 3.5mm;
+    color: grey;
+}

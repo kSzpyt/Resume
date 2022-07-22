@@ -1,0 +1,24 @@
+@page{
+    size: A4;
+    margin: 0 !important;
+}
+
+
+@media print{
+    body{
+        visibility: hidden;
+    }
+
+    .container{
+        width: 210mm;
+        height: 296mm; 
+        box-shadow: none
+
+    }
+
+    .container, .container *{
+        visibility: visible;
+        margin: 0;
+        
+    }
+}
