@@ -1,21 +1,28 @@
 .right_side{
     position: relative;
-    margin: 30px;
+    margin: 15px;
+    /* margin-right: 10px; */
     font-size: 3.5mm;
 }
 
 .right_side #header_line{
     display: inline-block;
-    border-bottom: 1px solid #00304771;
+    /* border-bottom: 1px solid #00304771; */
+    border-bottom: 1px solid #03a9f4;
     margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 6mm;
     font-weight: 700;
+}
+
+.profile #header_line{
+    margin-top: 0;
 }
 
 .profile_text{
     text-align: justify;
     padding: 0;
+    margin-top: 15px;
 }
 
 
@@ -28,3 +35,30 @@
     font-size: 3.5mm;
     color: grey;
 }
+
+#new_line_sep{
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    border-bottom: thin solid hsla(199, 98%, 48%, 0.2);
+    font-size: 110%;
+}
+
+.experience #separator{
+    color: #03a9f4;
+}
+
+.experience #position_title{
+    margin-top: 10px;
+}
+
+.experience .position {
+    border-bottom: thin dotted hsla(199, 98%, 48%, 0.2);
+    padding-bottom: 10px;
+}
+
+.experience div:last-child{
+    border: none;
+}
+
+

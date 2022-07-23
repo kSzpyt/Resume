@@ -6,7 +6,9 @@
     border-bottom-color: rgba(128, 128, 128, 0.5);
 
     padding-top: 50px;
-    padding-left: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
     color: #fff;
 
     font-size: 15px;
@@ -24,7 +26,7 @@
 
 .profile_text {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    margin-right: 35px;
+    /* margin-right: 35px; */
     padding-bottom: 20px;
 }
 
@@ -48,7 +50,7 @@
     display: inline-block;
     width: 18px;
     font-size: 18px;
-    color: #00a6ff;
+    color: #03a9f4;
 }
 
 
@@ -57,14 +59,11 @@
 }
 
 .education .years{
-    color: #00a6ff
+    color: #03a9f4;
 }
 
 
 
-.languages{
-    margin-right: 35px;
-}
 
 .languages #percent {
     position: relative;
