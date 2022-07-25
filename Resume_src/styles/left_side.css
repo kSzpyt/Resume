@@ -6,8 +6,8 @@
     border-bottom-color: rgba(128, 128, 128, 0.5);
 
     padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 50px;
     color: #fff;
 
@@ -24,10 +24,13 @@
     font-weight: 300;
 }
 
-.profile_text {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    /* margin-right: 35px; */
-    padding-bottom: 20px;
+
+.profile_text{
+    text-align: justify;
+    padding: 0;
+    margin-top: 5px;
+    font-size: 3.5mm;
+    font-weight: 200;
 }
 
 .left_side #header_line{
@@ -37,6 +40,10 @@
     margin-bottom: 20px;
     font-size: 6mm;
     font-weight: 700;
+}
+
+.profile #header_line{
+    margin-bottom: 0;
 }
 
 .left_side ul li{
