@@ -5,7 +5,7 @@
 }
 
 #left_side #name_and_position{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid hsla(199, 98%, 48%, 0.75);
     padding-bottom: 2mm;
     margin-bottom: 3mm;
 }
@@ -29,5 +29,5 @@
 }
 
 #left_side #icon{
-    color: white;
+    color: #03a9f4;
 }

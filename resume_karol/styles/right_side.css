@@ -1,0 +1,60 @@
+#right_side{
+    padding: 5mm;
+}
+
+#technologies .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#technologies .box p{
+    color: #848c99;
+    
+}
+
+#skills #technical{
+    border-bottom: 1px dotted hsla(199, 98%, 48%, 0.3);
+    padding-bottom: 3mm;
+    margin-bottom: 3mm;
+}
+
+/* EXPERIENCE */
+
+#experience .position_title{
+    font-size: 5mm;
+    font-weight: 500;
+}
+
+#experience span{
+    font-size: 3.5mm;
+    color: grey;
+}
+
+#new_line_sep{
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    border-bottom: thin solid hsla(199, 98%, 48%, 0.2);
+    font-size: 110%;
+}
+
+#experience #separator{
+    color: #03a9f4;
+}
+
+#experience .position_title{
+    margin-top: 10px;
+}
+
+#experience .position {
+    border-bottom: thin dotted hsla(199, 98%, 48%, 0.2);
+    padding-bottom: 10px;
+}
+
+#experience div:last-child{
+    border: none;
+}

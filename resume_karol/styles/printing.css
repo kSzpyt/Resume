@@ -20,11 +20,7 @@
 
     #container, #container *{
         visibility: visible;
-        margin: 0;
     }
 
-    #right_side{
-        margin: 30px;
-    }
 
 }
