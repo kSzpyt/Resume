@@ -24,4 +24,8 @@
     .right_side{
         margin: 30px;
     }
+
+    .left_side{
+        border-bottom: none;
+    }
 }

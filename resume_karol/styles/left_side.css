@@ -1,0 +1,33 @@
+#left_side{
+    padding: 10mm;
+    color: white;
+    background-color: #003147;
+}
+
+#left_side #name_and_position{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 2mm;
+    margin-bottom: 3mm;
+}
+
+#left_side #name_and_position #name{
+    font-size: 300%;
+    font-weight: 700;
+}
+
+#left_side #name_and_position #position{
+    font-size: 170%;
+    font-weight: 400;
+}
+
+#left_side #profile_text{
+    text-align: justify;
+}
+
+#left_side #exceptional_padding i{
+    padding-right: 1px;
+}
+
+#left_side #icon{
+    color: white;
+}
