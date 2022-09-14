@@ -1,5 +1,5 @@
 #left_side{
-    padding: 10mm;
+    padding: 6mm;
     color: white;
     background-color: #003147;
 }
@@ -22,6 +22,7 @@
 
 #left_side #profile_text{
     text-align: justify;
+    line-height: 4mm;
 }
 
 #left_side #exceptional_padding i{
