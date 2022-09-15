@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="styles/common.css" type="text/css">
         <link rel="stylesheet" href="styles/left_side.css" type="text/css">
         <link rel="stylesheet" href="styles/right_side.css" type="text/css">
+        <link rel="stylesheet" href="styles/consent.css" type="text/css">
         <link rel="stylesheet" href="styles/printing.css" type="text/css" media="print">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
@@ -23,12 +24,18 @@
                     <div id="profile">
                         <p class="header_line">Profile</p>
                         <p id="profile_text">
-                            I'm a graduate of Computer Science and Econometrics at the AGH University 
+                            <!-- I'm a graduate of Computer Science and Econometrics at the AGH University 
                             of Science and Technology in Cracow. 
                             I'm interested in Data Analysis, Data Science, Process Automation 
                             and Reporting. I'm looking for a job that 
                             will allow me to gain some real work experience. I'm eager to learn new 
-                            skills and technologies every day.
+                            skills and technologies every day. -->
+                            I'm experienced in process automation and data visualisation 
+                            but I would love to explore more data related fields. 
+                            I like learning new technologies - e.g. this resume was created with html/css. 
+                            Constant development is my personal priority #1 and 
+                            I'm looking for a job that will allow me to do that.
+                            Copying and pasting is not for me.
                         </p>
                     </div>
 
@@ -96,20 +103,40 @@
                         </ul>
                     </div>
 
-                    <div>
+                    <div id="interests">
                         <p class="header_line">Interests</p>
 
-                        <div>
-                            <i class="fa fa-windows fa-2x" aria-hidden="true"></i> 
-                            Windows User
-                            <br><br>
-                            <i class="fa fa-apple fa-2x" aria-hidden="true"></i>
-                            MacOS and IOS fan
-                            <br><br>
-                            <i class="fa fa-camera fa-2x" aria-hidden="true"></i>
-                            Amateur Photographer
-                            <br><br>
-                        </div>
+                        <ul>
+                            <li>
+                                <span class="icon" id="icon_interests"><i class="fa fa-windows" aria-hidden="true"></i></span>
+                                <span>Windows User</span>
+                            </li>
+                            <li>
+                                <span class="icon" id="icon_interests"><i class="fa fa-apple" aria-hidden="true"></i></span>
+                                <span>MacOS and IOS fan</span>
+                            </li>
+                            <li>
+                                <span class="icon" id="icon_interests"><i class="fa fa-camera" aria-hidden="true"></i></span>
+                                <span>Amateur Photographer</span>
+                            </li>
+                            <li>
+                                <span class="icon" id="icon_interests"><i class="fa fa-magic" aria-hidden="true"></i></span>
+                                <span>Automation Freak</span>
+                            </li>
+                            <li>
+                                <span class="icon" id="icon_interests"><i class="fa fa-car" aria-hidden="true"></i></span>
+                                <span>I can drive all day/all night</span>
+                            </li>
+                            <li>
+                                <span class="icon" id="icon_interests"><i class="fa fa-paper-plane" aria-hidden="true"></i></span>
+                                <span>I'm saving for a drone ... </span>
+                            </li>
+                            <li>
+                                <span class="icon" id="icon_interests"><i class="fa fa-motorcycle" aria-hidden="true"></i></span>
+                                <span> ... and for a motorcycle!</span>
+                            </li>
+                        </ul>
+                        
                     </div>
 
                 </div>
@@ -150,6 +177,13 @@
                         </div>
 
                         <div class="box">
+                            <p>VBA</p> 
+                            <div class="percent">
+                                <div style="width: 70%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="box">
                             <p>Python</p> 
                             <div class="percent">
                                 <div style="width: 60%;"></div>
@@ -184,7 +218,7 @@
                         <p id="technical">
                             Dashboard Development <span class="icon"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
                             Process Automation <span class="icon"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
-                            Time Series Analysis<span class="icon"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
+                            Time Series Analysis <span class="icon"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
                             Data Gathering <span class="icon"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
                             Data Manipulation <span class="icon"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
                             Web Scrapping 
@@ -205,7 +239,10 @@
                         <p class="header_line">Experience</p>
 
                         <div class="position">
-                            <p class="position_title" id="first">Junior Data Analyst</p>
+                            <p class="position_title" id="first">
+                                <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                Junior Data Analyst
+                            </p>
                             <p class="position_company">
                                 <i class="fa fa-building" aria-hidden="true"></i>
                                 Jacobs Engineering Group 
@@ -213,7 +250,7 @@
                                 December 2021 - Present</p>
 
                             <p id="new_line_sep">Responsibilities</p>
-                            <p>
+                            <p class="responsibilities">
                                 Dashboard Development using Power BI.
                                 Process Automation using Power Platform and Python.
                                 Maintenance of data platform "Track Record" developed by Jacobs.
@@ -223,7 +260,10 @@
                         </div>
 
                         <div class="position">
-                            <p class="position_title">Junior Analyst</p>
+                            <p class="position_title">
+                                <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                Junior Analyst
+                            </p>
                             <p class="position_company">
                                 <i class="fa fa-building" aria-hidden="true"></i>
                                 Civitta
@@ -232,28 +272,93 @@
                             </p>
 
                             <p id="new_line_sep">Responsibilities</p>
-                            <p>
+                            <p class="responsibilities">
                                 Gathering Data from primary and secondary sources and summarising it into reports
                             </p>
                             
                         </div>
                     </div>
 
-                    <div>
+                    <div id="certificates">
                         <p class="header_line">Certificates</p>
+
+                        <ul>
+                            <li>
+                                <p class="cert_name">Scrum Master Certified (SMC)</p>
+
+                                <p class="cert_details">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    VMEdu Inc.
+                                    <i class="fa fa-hourglass-start" aria-hidden="true"></i>
+                                    Issued Mar 2021
+                                    <i class="fa fa-hourglass-end" aria-hidden="true"></i>
+                                    Expires mar 2024
+                                    <br>
+                                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                    Credential ID: 823877
+                                </p>
+                            </li>
+                            <li>
+                                <p class="cert_name">PRINCE2 Foundation Certification Training</p>
+
+                                <p class="cert_details">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    PeopleCert
+                                    <i class="fa fa-hourglass-start" aria-hidden="true"></i>
+                                    Issued Jul 2019
+                                    <i class="fa fa-hourglass-end" aria-hidden="true"></i>
+                                    No Expiration Date
+                                    <br>
+                                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                    Credential ID: GR656098469KS
+                                </p>
+                            </li>
+                            <li>
+                                <p class="cert_name">Python DEV - Level UP</p>
+
+                                <p class="cert_details">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    Daftcode
+                                    <i class="fa fa-hourglass-start" aria-hidden="true"></i>
+                                    Issued Jun 2022
+                                    <i class="fa fa-hourglass-end" aria-hidden="true"></i>
+                                    No Expiration Date
+                                    <br>
+                                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                    Credential ID: PDLU0020222
+                                </p>
+                            </li>
+                            <li>
+                                <p class="cert_name">Six Sigma Yellow BeltSix</p>
+
+                                <p class="cert_details">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+                                    LUQAM
+                                    <i class="fa fa-hourglass-start" aria-hidden="true"></i>
+                                    Issued Mar 2019
+                                    <i class="fa fa-hourglass-end" aria-hidden="true"></i>
+                                    No Expiration Date
+                                    <br>
+                                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                    Credential ID: SSYB/4032/03/2019/P
+                                </p>
+                            </li>
+                        </ul>
                     </div>
 
                 </div>
             </div>
             <div id="consent">
-                <!-- I hereby give consent for my personal data included in the application to be processed for 
+                <p>
+                    I hereby give consent for my personal data included in the application to be processed for 
                     the purposes of the recruitment process in accordance with Art. 6 paragraph 1 letter a of the 
                     Regulation of the European Parliament and of the Council (EU) 2016/679 of 27 April 2016 on the 
                     protection of natural persons with regard to the processing of personal data and on the free 
-                    movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation). -->
-                    Wyrażam zgodę na przetwarzanie moich danych osobowych przez PwC na potrzeby niniejszego procesu
+                    movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
+                    <!-- Wyrażam zgodę na przetwarzanie moich danych osobowych przez PwC na potrzeby niniejszego procesu
                     rekrutacyjnego oraz przyszłych rekrutacji na podstawie art. 6 ust. 1 lit. a RODO (Ogólnego Rozporządzenia o
-                    Ochronie Danych z dnia 27 kwietnia 2016 roku)
+                    Ochronie Danych z dnia 27 kwietnia 2016 roku) -->
+                </p>
             </div>
         </div>
     </body>

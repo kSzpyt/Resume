@@ -18,16 +18,16 @@
 
 #skills #technical{
     border-bottom: thin solid hsla(199, 98%, 48%, 0.2);
-    padding-bottom: 3mm;
-    margin-bottom: 3mm;
+    padding-bottom: 1mm;
+    margin-bottom: 1mm;
 }
 
 /* EXPERIENCE */
 
 #experience .position_title{
-    font-size: 5mm;
+    font-size: 120%;
     font-weight: 500;
-    padding-top: 2mm;
+    padding-top: 4mm;
 }
 
 #experience .position_title#first{
@@ -38,13 +38,31 @@
 
 #experience .position_company{
     color: #848c99;
+    font-size: 80%;
+}
+
+#experience .responsibilities{
+    font-size: 90%;
 }
 
 #new_line_sep{
     display: inline-block;
     margin-top: 8px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     border-bottom: thin solid hsla(199, 98%, 48%, 0.2);
     font-size: 110%;
+}
+
+#certificates .cert_name{
+    font-weight: 400;
+}
+
+#certificates .cert_details{
+    color: #848c99;
+    font-size: 80%;
+}
+
+#certificates ul li:not(:last-child){
+    padding-bottom: 2mm;
 }
 

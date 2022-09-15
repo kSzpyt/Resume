@@ -1,0 +1,12 @@
+#consent{
+    padding: 5mm;
+    color: white;
+    background-color: #003147;
+    height: 20.5mm;
+    border-top: 1px solid white;
+}
+
+#consent p{
+    font-size: 90%;
+    text-align: justify;
+}

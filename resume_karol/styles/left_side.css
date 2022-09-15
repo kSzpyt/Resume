@@ -7,7 +7,7 @@
 #left_side #name_and_position{
     border-bottom: 1px solid hsla(199, 98%, 48%, 0.75);
     padding-bottom: 2mm;
-    margin-bottom: 3mm;
+    margin-bottom: 1mm;
 }
 
 #left_side #name_and_position #name{
@@ -23,12 +23,22 @@
 #left_side #profile_text{
     text-align: justify;
     line-height: 4mm;
+    font-weight: 200;
 }
 
-#left_side #exceptional_padding i{
+/* #left_side #exceptional_padding i{
     padding-right: 1px;
+} */
+
+#left_side .icon{
+    color: #03a9f4;
+    float: left;
+    width: 6mm;
+    text-align: center;
 }
 
-#left_side #icon{
-    color: #03a9f4;
-}
+/* #interests .icon#icon_interests{
+    float: left;
+    width: 6mm;
+    text-align: center;
+} */
