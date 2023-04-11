@@ -2,7 +2,8 @@
     padding: 5mm;
     color: white;
     background-color: #003147;
-    height: 20.5mm;
+    /* height: 20.5mm; */
+    height: 10%;
     border-top: 1px solid white;
 }
 
