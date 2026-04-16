@@ -1,0 +1,28 @@
+#left_side{
+    padding: 5mm;
+    color: white;
+    background-color: #003147;
+}
+
+#left_side #name_and_position{
+    border-bottom: 1px solid hsla(199, 98%, 48%, 0.75);
+    padding-bottom: 2mm;
+    margin-bottom: 1mm;
+}
+
+#left_side #name_and_position #name{
+    font-size: 300%;
+    font-weight: 700;
+}
+
+#left_side #name_and_position #position{
+    font-size: 170%;
+    font-weight: 400;
+}
+
+#left_side .icon{
+    color: #03a9f4;
+    float: left;
+    width: 6mm;
+    text-align: center;
+}
